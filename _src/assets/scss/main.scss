@@ -1,0 +1,455 @@
+.container {
+    margin: 0 15px;
+    max-width: 924px;
+ 
+}
+
+/*sección Stefany*/
+.header_base{
+    background-color: #099d8d;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.name_team{
+    font-family: Rubik;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.menu{
+    background-color: #14d9c4;
+    font-family: Rubik;
+    font-size: 15px;
+    opacity: 0.9;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0 -17px;
+    padding: 0 17px;
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ .navigation a{
+    text-decoration: none;
+    color: #fff;
+} 
+.navigation a:hover{
+    color: #54585a;
+}
+
+.name_team a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-image {
+    height: 412px;
+    background: url(../images/Eniac-Women-old.jpeg) 80% center no-repeat;
+    background-size: cover;
+    
+}
+.hero-image .container{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.claim_hero{
+    margin: 0;
+    background-color: #fff;
+    padding: 20px 25px;
+    flex-grow: 1;
+    transform: translateY(40%);
+}
+
+.claim_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000;
+}
+
+.claim_author{
+    text-align: right;
+}
+
+/*sección Nerea*/
+.txt{
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #54585a;
+    align-content: center;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.team{
+    margin-top: 50px;
+}
+
+.header {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #099d8d;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;} 
+
+
+/*sección Itziar*/
+.square{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 46%;
+}
+
+.strong_weak{
+    background-color: rgba(184, 184, 185,0.2);
+    margin-top: 30px;
+}
+
+.strengths, .weaknesses{
+    color: #099d8d;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.text{
+    color: #54585a;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+.weak_text{
+    padding-bottom: 45px;
+}
+
+
+/*sección Ana*/
+
+.about{
+    margin-top: 0px;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;   
+}
+
+.image {
+    width: 180px;  
+}
+
+.name {
+    font-family:'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.description {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 0px 6px;
+}
+
+.networks {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 242px;
+    height: 30px;
+    size: 16px;
+    padding:0;
+    margin: auto;
+}
+.containernetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.network {
+    margin-left: 7px;
+
+}
+.fab {
+    color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+
+}
+.fas {
+    color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.twitter:after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+}
+.linkedin::after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+}
+.github::after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+} 
+.email::after {
+    content: "·";
+    margin-left: 20px;
+    color: #099d8d;
+}
+
+
+.fas,.fab {
+    display:inline   !important
+    
+}
+
+
+/*sección María*/
+
+footer {
+    text-align: center;
+
+}
+
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b8b8b9;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /*height: 28%;*/
+}
+.nav {
+    list-style: none;
+    padding: 0px;
+    height: 24%;    
+}
+ .nav a {
+    color: #54585a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav a:hover{
+    color: #14d9c4;
+}
+
+.logo_Adalab {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+
+@media all and (min-width: 768px){
+    .container {
+        margin: 0 46px;
+        
+    }
+    .claim_hero{
+        max-width: 441px;
+        opacity: 0.8;
+        transform: translateY(0%);
+    }
+
+    .cont_menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu{
+        background-color: #099d8d;
+        width: 320px;
+    }
+
+    .square{
+        left: 48%;
+    }
+
+    .cont_grey{
+        display: flex;
+    }
+
+    .sec1 , .sec2{
+        width: 50%;
+    }
+
+    .sec1{
+        margin-right: 15px;
+    }
+    .sec2{
+        margin-left: 15px;
+    }
+    .member-impair {
+        display: flex;
+        flex-flow: row nowrap;
+
+    }  
+    .networks{
+        margin-top: 20px;
+
+    }
+
+    .containernetworks-impair{
+        transform: translateX(-145px);
+    }
+    .about-impair  {
+        text-align: left;
+        margin: 0;
+        width: 427px;
+    }
+
+    .member-pair {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+    }  
+    .containernetworks-pair{
+        transform: translateX(149px);
+    }
+    .about-pair  {
+        text-align: right;
+        margin: 0;
+        width: 427px;
+    }
+    
+    .photo{
+        width: 206px;
+        height: 206px;
+    }
+
+    .photo-impair {
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .photo-pair {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    .image{
+        width: 206px;
+    }
+    .copyright , .logo_Adalab{
+        text-align: left;
+    }
+
+    .nav {
+        text-align: right;
+        transform: translateY(-30px);
+    }
+    .logo_Adalab{
+        transform: translateY(-90px);
+    }
+    .footer{
+        height: 130px;
+    }
+
+    .description{
+        padding: 0px;
+    }
+
+    .twitter{
+        margin-left: 0px;
+    }
+   
+    
+}
+
+
+
+
+
+@media all and (min-width: 1016px){
+    .container {
+        margin: 0 auto;
+    }
+
+    .square{
+        left: 49%;
+    }
+
+    .container-team{
+        max-width: 600px;
+    }
+    
+    .photo{
+        width: 278px;
+        height: 278px;
+    }
+    .image{
+        width: 278px;
+    }
+
+    .about-pair{
+        width: 537px;
+    }
+
+    .containernetworks-pair{
+        transform: translateX(202px);
+    }
+
+   
+
+   }
