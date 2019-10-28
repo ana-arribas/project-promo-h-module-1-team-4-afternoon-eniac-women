@@ -42,12 +42,12 @@
             <section class="container--form">
                 <form class="form" claction="/signup" method="post">
                     <label for="name">Nombre completo <span class="asterisk">*</span></label>
-                    <input class="input" placeholder="Nombre..." id="name" type="text" name="name" />
+                    <input class="input" placeholder="Nombre..." id="name" type="text" name="name" required />
                     <div class="contact">
                         <div class="contact--email">
                             <label for="email">Email<span class="asterisk">*</span></label>
                             <input class="input" placeholder="nombre.apellidos@mail.com" id="email" type="text"
-                                name="email" />
+                                name="email" required />
                         </div>
                         <div class="contact--phone">
 
@@ -57,8 +57,8 @@
                     </div>
 
                     <label for="message">Mensaje<span class="asterisk">*</span></label>
-                    <input class="input message" placeholder="¿Qué necesitas?" id="message" type="text"
-                        name="message" />
+                    <input class="input message" placeholder="¿Qué necesitas?" id="message" type="text" name="message"
+                        required />
 
                     <input class="button" type="submit" value="ENVIAR" />
                 </form>
