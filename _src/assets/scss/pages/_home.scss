@@ -1,0 +1,169 @@
+
+.txt{
+    font-family: $open-sans-font;
+    font-size: 16px;
+    color: $dark-grey;
+    align-content: center;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.team{
+    margin-top: 50px;
+}
+
+.header {
+    font-family: $rubik-font;
+    text-align: center;
+    color: $dark-green;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;} 
+
+
+/*sección Itziar*/
+.square{
+    background-color: $white;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 46%;
+}
+
+.strong_weak{
+    background-color: $grey-opacity;
+    margin-top: 30px;
+}
+
+.strengths, .weaknesses{
+    color:$dark-green;
+    font-size: 22px;
+    font-family: $rubik-font;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.text{
+    color: $dark-grey;
+    font-size: 16px;
+    font-family: $open-sans-font;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+.weak_text{
+    padding-bottom: 45px;
+}
+
+
+/*sección Ana*/
+
+.about{
+    margin-top: 0px;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    border-radius: 10px;
+    border: 5px solid $black-opacity;
+    overflow: hidden;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;   
+}
+
+.image {
+    width: 180px;  
+}
+
+.name {
+    font-family:$open-sans-font;
+    color: $black;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.description {
+    font-family: $open-sans-font;
+    color: $dark-grey;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 0px 6px;
+}
+
+.networks {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 242px;
+    height: 30px;
+    size: 16px;
+    padding:0;
+    margin: auto;
+}
+.containernetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.network {
+    margin-left: 7px;
+
+}
+.fab {
+    color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+
+}
+.fas {
+    color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.twitter:after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+}
+.linkedin::after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+}
+.github::after {
+    content: "·";
+    margin-left: 9px;
+    color: #099d8d;
+} 
+.email::after {
+    content: "·";
+    margin-left: 20px;
+    color: #099d8d;
+}
+
+
+.fas,.fab {
+    display:inline   !important
+    
+}
