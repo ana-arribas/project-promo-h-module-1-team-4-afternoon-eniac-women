@@ -46,7 +46,8 @@
                     <p class="paragraph">Todos los campos marcados con * son obligatorios.</p>
                 </section>
                 <section class="container--form">
-                    <form class="form" claction="/signup" method="post">
+                    <form id="contactform" class="form" action="//formspree.io/itziarortega94@gmail.com"
+                    method="post">
                         <label for="name">Nombre completo <span class="asterisk">*</span>
                         </label>
                         <input class="input" placeholder="Nombre..." id="name" type="text" name="name"
@@ -69,6 +70,7 @@
                         <input class="input message" placeholder="¿Qué necesitas?" id="message"
                         type="text" name="message" required />
                         <input class="button" type="submit" value="ENVIAR" />
+                        <input type="hidden" name="_next" value="#" />
                     </form>
                 </section>
             </main>
