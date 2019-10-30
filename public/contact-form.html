@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./assets/css/normalize.css" rel="stylesheet" type="text/css">
-        <link href="./assets/css/main_contact-form.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
         rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
@@ -36,43 +36,45 @@
                     </nav>
                 </div>
             </header>
-            <section class="hero-image" id="hero"></section>​
+            <section class="hero__image" id="hero"></section>​
             <main>
-                 <h1 class="title">CONTACTO</h1>
+                <div class="container">
+                     <h1 class="title">CONTACTO</h1>
 
-                <section class="section">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ullamcorper
-                        mauris, vel convallis metus eleifend in.</p>
-                    <p class="paragraph">Todos los campos marcados con * son obligatorios.</p>
-                </section>
-                <section class="container--form">
-                    <form id="contactform" class="form" action="//formspree.io/itziarortega94@gmail.com"
-                    method="post">
-                        <label for="name">Nombre completo <span class="asterisk">*</span>
-                        </label>
-                        <input class="input" placeholder="Nombre..." id="name" type="text" name="name"
-                        required />
-                        <div class="contact">
-                            <div class="contact--email">
-                                <label for="email">Email<span class="asterisk">*</span>
-                                </label>
-                                <input class="input" placeholder="nombre.apellidos@mail.com" id="email"
-                                type="text" name="email" required />
+                    <section class="section">
+                        <p>Si necesitas más información o tienes alguna duda, rellena este formulario.
+                            Nos pondremos en contacto contigo lo antes posible.</p>
+                        <p class="paragraph">Todos los campos marcados con * son obligatorios.</p>
+                    </section>
+                    <section class="container--form">
+                        <form id="contactform" class="form" action="//formspree.io/itziarortega94@gmail.com"
+                        method="post">
+                            <label for="name">Nombre completo <span class="asterisk">*</span>
+                            </label>
+                            <input class="input" placeholder="Nombre..." id="name" type="text" name="name"
+                            required />
+                            <div class="contact">
+                                <div class="contact--email">
+                                    <label for="email">Email<span class="asterisk">*</span>
+                                    </label>
+                                    <input class="input" placeholder="nombre.apellidos@mail.com" id="email"
+                                    type="text" name="email" required />
+                                </div>
+                                <div class="contact--phone">
+                                    <label for="phone">Teléfono</label>
+                                    <input class="input" placeholder="Ej: 123456789" id="phone"
+                                    type="text" name="phone" />
+                                </div>
                             </div>
-                            <div class="contact--phone">
-                                <label for="phone">Teléfono</label>
-                                <input class="input" placeholder="Ej: 123456789" id="phone"
-                                type="text" name="phone" />
-                            </div>
-                        </div>
-                        <label for="message">Mensaje<span class="asterisk">*</span>
-                        </label>
-                        <input class="input message" placeholder="¿Qué necesitas?" id="message"
-                        type="text" name="message" required />
-                        <input class="button" type="submit" value="ENVIAR" />
-                        <input type="hidden" name="_next" value="#" />
-                    </form>
-                </section>
+                            <label for="message">Mensaje<span class="asterisk">*</span>
+                            </label>
+                            <input class="input message" placeholder="¿Qué necesitas?" id="message"
+                            type="text" name="message" required />
+                            <input class="button" type="submit" value="ENVIAR" />
+                            <input type="hidden" name="_next" value="#" />
+                        </form>
+                    </section>
+                </div>
             </main>
             <hr>
             <footer>

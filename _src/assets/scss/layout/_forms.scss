@@ -1,78 +1,70 @@
-/* .wrapper{
-    border: 2px solid rgb(180, 39, 39);
-} */
+// /* ########## HEADER SECTION ##############*/
+// .header_base{
+//     background-color: #099d8d;
+//     opacity: 0.95;
+//     position: fixed;
+//     width: 100%;
+//     text-align: center;
+//     top:0px;
+//     left: 0px;
+//     z-index: 1;
+// }
 
-.wrapper{
-    margin: 0 15px;
-}
+// .name_team{
+//     font-family: Rubik;
+//     font-size: 16px;
+//     color: #fff;
+//     line-height: 30px;
+//     font-weight: 500;
+// }
 
-/* ########## HEADER SECTION ##############*/
-.header_base{
-    background-color: #099d8d;
-    opacity: 0.95;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    top:0px;
-    left: 0px;
-    z-index: 1;
-}
+// .menu{
+//     background-color: #14d9c4;
+//     font-family: Rubik;
+//     font-size: 15px;
+//     opacity: 0.9;
+//     line-height: 30px;
+//     font-weight: 500;
+//     margin: 0 0;
+//     padding: 0 17px;
+// }
 
-.name_team{
-    font-family: Rubik;
-    font-size: 16px;
-    color: #fff;
-    line-height: 30px;
-    font-weight: 500;
-}
+// .navigation{
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-between;
+//     align-items: center;
+//     list-style: none;
+//     height: 45px;
+//     margin: 0;
+//     padding: 0;
+//     color: #fff;
+// }
+//  .navigation a{
+//     text-decoration: none;
+//     color: #fff;
+// } 
+// .navigation a:hover{
+//     color: #54585a;
+// }
 
-.menu{
-    background-color: #14d9c4;
-    font-family: Rubik;
-    font-size: 15px;
-    opacity: 0.9;
-    line-height: 30px;
-    font-weight: 500;
-    margin: 0 0;
-    padding: 0 17px;
-}
+// .name_team a {
+//     text-decoration: none;
+//     color: #fff;
+// }
 
-.navigation{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    height: 45px;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
- .navigation a{
-    text-decoration: none;
-    color: #fff;
-} 
-.navigation a:hover{
-    color: #54585a;
-}
-
-.name_team a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.hero-image {
-    height: 412px;
-    background: url(../images/Eniac-Women-old.jpeg) 80% center no-repeat;
-    background-size: cover;
-    margin: 0 -15px;
+// .hero-image {
+//     height: 412px;
+//     background: url(../images/Eniac-Women-old.jpeg) 80% center no-repeat;
+//     background-size: cover;
+//     margin: 0 -15px;
     
-}
-.hero-image .container{
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-}
+// }
+// .hero-image .container{
+//     height: 100%;
+//     display: flex;
+//     align-items: flex-end;
+// }
 
 
 
@@ -147,53 +139,53 @@ label, input{
 
 /* ########## FOOTER ##########*/
 
-footer {
-    text-align: center;
-}
-.copyright {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #b8b8b9;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    /*height: 28%;*/
-}
-.nav {
-    list-style: none;
-    padding: 0px;
-    height: 24%;    
-}
- .nav a {
-    color: #54585a;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 20px;
-}
+// footer {
+//     text-align: center;
+// }
+// .copyright {
+//     font-family: 'Open Sans', sans-serif;
+//     font-size: 14px;
+//     line-height: 20px;
+//     color: #b8b8b9;
+//     margin-top: 30px;
+//     margin-bottom: 20px;
+//     /*height: 28%;*/
+// }
+// .nav {
+//     list-style: none;
+//     padding: 0px;
+//     height: 24%;    
+// }
+//  .nav a {
+//     color: #54585a;
+//     font-family: 'Open Sans', sans-serif;
+//     font-weight: 600;
+//     text-decoration: none;
+//     font-size: 14px;
+//     line-height: 20px;
+// }
 
-.nav a:hover{
-    color: #14d9c4;
-}
+// .nav a:hover{
+//     color: #14d9c4;
+// }
 
-.logo_Adalab {
-    margin-top: 30px;
-    margin-bottom: 45px;
-}
+// .logo_Adalab {
+//     margin-top: 30px;
+//     margin-bottom: 45px;
+// }
 
 /* ########## MEDIAQUERIES ###########*/
 @media all and (min-width: 768px){
-    .wrapper{
-        margin: 0 163px;
-    }
+    // .wrapper{
+    //     margin: 0 163px;
+    // }
     
     /* ##### HEADER ##### */
 
-    .container {
-        margin: 0 46px;
+    // .container {
+    //     margin: 0 46px;
         
-    }
+    // }
     .hero-image{
         margin: 0 -163px;
     }
@@ -202,10 +194,10 @@ footer {
         justify-content: space-between;
     }
 
-    .menu{
-        background-color: #099d8d;
-        width: 320px;
-    }
+    // .menu{
+    //     background-color: #099d8d;
+    //     width: 320px;
+    // }
 
     /* ##### FORM ##### */
     .section{
@@ -218,32 +210,32 @@ footer {
     }
 
     /* ##### FOOTER ##### */
-    .footer{
-        margin: 0 -118px;
-    }
-    .container--footer{
-        padding: 0 45px;
-    }
-    .copyright , .logo_Adalab{
-        text-align: left;
-    }
+    // .footer{
+    //     margin: 0 -118px;
+    // }
+    // .container--footer{
+    //     padding: 0 45px;
+    // }
+    // .copyright , .logo_Adalab{
+    //     text-align: left;
+    // }
 
-    .nav {
-        text-align: right;
-        transform: translateY(-30px);
-    }
-    .logo_Adalab{
-        transform: translateY(-90px);
-    }
-    .footer{
-        height: 130px;
-    }
+    // .nav {
+    //     text-align: right;
+    //     transform: translateY(-30px);
+    // }
+    // .logo_Adalab{
+    //     transform: translateY(-90px);
+    // }
+    // .footer{
+    //     height: 130px;
+    // }
 }    
 
 @media all and (min-width:1200px){
-    .wrapper{
-        margin: 0 300px;
-    }
+    // .wrapper{
+    //     margin: 0 300px;
+    // }
     .hero-image{
         margin: 0 -300px;
     }
@@ -265,11 +257,8 @@ footer {
     .contact--phone{
         margin-left: 22px;
     }
-
-
-
-
-    .footer{
-        margin: 0 -162px;
-    }
+    
+    // .footer{
+    //     margin: 0 -162px;
+    // }
 }
