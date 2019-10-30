@@ -1,5 +1,5 @@
-.header_base{
-    background-color: #099d8d;
+.header__base{
+    background-color: $dark-green;
     opacity: 0.95;
     position: fixed;
     width: 100%;
@@ -10,44 +10,43 @@
 }
 
 .name_team{
-    font-family: Rubik;
+    font-family: $rubik-font;
     font-size: 16px;
-    color: #fff;
+    color: $white;
     line-height: 30px;
     font-weight: 500;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
 }
 
 .menu{
-    background-color: #14d9c4;
-    font-family: Rubik;
+    background-color: $aqua;
+    font-family: $rubik-font;
     font-size: 15px;
     opacity: 0.9;
     line-height: 30px;
     font-weight: 500;
     margin: 0 -17px;
     padding: 0 17px;
-}
+    .navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        color: $white;
+        a {
+            text-decoration: none;
+            color:$white;
+            &:hover{
+                color: $dark-grey;
+            }
+        }
 
-.navigation{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    height: 45px;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
- .navigation a{
-    text-decoration: none;
-    color: #fff;
-} 
-.navigation a:hover{
-    color: #54585a;
-}
-
-.name_team a {
-    text-decoration: none;
-    color: #fff;
+    }
 }

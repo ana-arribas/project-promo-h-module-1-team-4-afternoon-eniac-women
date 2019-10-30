@@ -226,7 +226,7 @@ a {
   max-width: 924px;
 }
 
-.header_base {
+.header__base {
   background-color: #099d8d;
   opacity: 0.95;
   position: fixed;
@@ -238,16 +238,21 @@ a {
 }
 
 .name_team {
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
   line-height: 30px;
   font-weight: 500;
 }
 
+.name_team a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .menu {
   background-color: #14d9c4;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 15px;
   opacity: 0.9;
   line-height: 30px;
@@ -256,7 +261,7 @@ a {
   padding: 0 17px;
 }
 
-.navigation {
+.menu .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,21 +279,16 @@ a {
   height: 45px;
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #ffffff;
 }
 
-.navigation a {
+.menu .navigation a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
-.navigation a:hover {
+.menu .navigation a:hover {
   color: #54585a;
-}
-
-.name_team a {
-  text-decoration: none;
-  color: #fff;
 }
 
 footer {
