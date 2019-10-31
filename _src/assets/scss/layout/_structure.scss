@@ -1,4 +1,10 @@
 .container {
     margin: 0 15px;
     max-width: 924px;
+    @media all and (min-width: 768px){
+        margin: 0 46px;
+    }
+    @media all and (min-width: 1016px){
+        margin: 0 auto;
+    }
 }    

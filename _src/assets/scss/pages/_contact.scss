@@ -3,18 +3,18 @@ label, input{
 }
 .container{
     .title{
-        color: #099d8d;
-        font-family: 'Rubik';
-        font-size: 24px;
+        color: $dark-green;
+        font-family: $rubik-font;
+        font-size: 1.5rem;
         font-weight: 500;
         text-align: center;
     }
     .section{
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
+        font-family: $open-sans-font;
+        font-size: 1rem;
         height: 144px;
-        color: #54585a;
+        color: $dark-grey;
         @media all and (min-width: 768px){
             height: 120px;
         }
@@ -22,7 +22,10 @@ label, input{
             height: 96px;
         }
         .paragraph{
-            font-size: 12px;
+            font-size: 0.75rem;
+            .asterisk{
+                color: $aqua;
+            }
         }
     }
     .container--form{
@@ -30,8 +33,8 @@ label, input{
             margin-bottom: 120px;
         }
         .form{
-            color: #54585a;
-            font-family: 'Open Sans', sans-serif;
+            color: $dark-grey;
+            font-family: $open-sans-font;
             font-size: 14px;
             display: flex;
             flex-direction: column;
@@ -79,16 +82,23 @@ label, input{
                 height: 105px;
             }
             .button{
-                font-family: 'Open Sans', sans-serif;
+                font-family: $open-sans-font;
                 font-weight: 600;
                 font-size: 16px;
-                background-color: #099d8d;
+                background-color: $dark-green;
                 color: #fff;
                 border: none;
                 border-radius: 4px;
                 width: 100%;
                 height: 45px;
                 margin-top: 17px;
+                
+                &:hover {
+                    transform: scale(1.05);
+                    transition: ease 1s;
+                    background-color: #067267;
+                    font-size: 18px;
+                }
                 @media all and (min-width: 768px){
                     align-self: flex-end;
                     width: 50%;
