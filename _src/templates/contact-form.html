@@ -20,40 +20,40 @@
         </section> ​
         <main>
             <div class="container">
-            <h1 class="title">CONTACTO</h1>
-            <section class="section">
-                <p>
-                    Si necesitas más información o tienes alguna duda, rellena este formulario.
-                    Nos pondremos en contacto contigo lo antes posible.
-                </p>
-                <p class="paragraph">Todos los campos marcados con * son obligatorios.</p>
-            </section>
-            <section class="container--form">
-                <form id="contactform" class="form" action="//formspree.io/itziarortega94@gmail.com" method="post">
-                    <label for="name">Nombre completo <span class="asterisk">*</span></label>
-                    <input class="input" placeholder="Nombre..." id="name" type="text" name="name" required />
-                    <div class="contact">
-                        <div class="contact--email">
-                            <label for="email">Email<span class="asterisk">*</span></label>
-                            <input class="input" placeholder="nombre.apellidos@mail.com" id="email" type="text"
-                                name="email" required />
+                <h1 class="title">CONTACTO</h1>
+                <section class="section">
+                    <p>
+                        Si necesitas más información o tienes alguna duda, rellena este formulario.
+                        Nos pondremos en contacto contigo lo antes posible.
+                    </p>
+                    <p class="paragraph">Todos los campos marcados con * son obligatorios.</p>
+                </section>
+                <section class="container--form">
+                    <form id="contactform" class="form" action="//formspree.io/itziarortega94@gmail.com" method="post">
+                        <label for="name">Nombre completo <span class="asterisk">*</span></label>
+                        <input class="input" placeholder="Nombre..." id="name" type="text" name="name" required />
+                        <div class="contact">
+                            <div class="contact--email">
+                                <label for="email">Email<span class="asterisk">*</span></label>
+                                <input class="input" placeholder="nombre.apellidos@mail.com" id="email" type="text"
+                                    name="email" required />
+                            </div>
+                            <div class="contact--phone">
+
+                                <label for="phone">Teléfono</label>
+                                <input class="input" placeholder="Ej: 123456789" id="phone" type="text" name="phone" />
+                            </div>
                         </div>
-                        <div class="contact--phone">
 
-                            <label for="phone">Teléfono</label>
-                            <input class="input" placeholder="Ej: 123456789" id="phone" type="text" name="phone" />
-                        </div>
-                    </div>
+                        <label for="message">Mensaje<span class="asterisk">*</span></label>
+                        <input class="input message" placeholder="¿Qué necesitas?" id="message" type="text"
+                            name="message" required />
 
-                    <label for="message">Mensaje<span class="asterisk">*</span></label>
-                    <input class="input message" placeholder="¿Qué necesitas?" id="message" type="text" name="message"
-                        required />
-
-                    <input class="button" type="submit" value="ENVIAR" />
-                    <input type="hidden" name="_next" value="#" />
-                </form>
-            </section>
-        </div>
+                        <input class="button" type="submit" value="ENVIAR" />
+                        <input type="hidden" name="_next" value="#" />
+                    </form>
+                </section>
+            </div>
         </main>
         <partial src="_footer.html" label="Footer"></partial>
     </div>
