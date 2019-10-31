@@ -1,36 +1,33 @@
 footer {
     text-align: center;
-
 }
 
 
 .copyright {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: $open-sans-font;
+    font-size: 0.875rem;
     line-height: 20px;
-    color: #b8b8b9;
+    color: $cool-grey;
     margin-top: 30px;
     margin-bottom: 20px;
-    /*height: 28%;*/
 }
 .nav {
     list-style: none;
     padding: 0px;
-    height: 24%;    
+    height: 24%; 
+    a {
+        color: $dark-grey;
+        font-family: $open-sans-font;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 0.875rem;
+        line-height: 20px;
+        &:hover {
+            color: $aqua;
+        }
+    }   
 }
- .nav a {
-    color: #54585a;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.nav a:hover{
-    color: #14d9c4;
-}
-
+ 
 .logo_Adalab {
     margin-top: 30px;
     margin-bottom: 45px;

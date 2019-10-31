@@ -296,13 +296,12 @@ footer {
 }
 
 .copyright {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
   line-height: 20px;
   color: #b8b8b9;
   margin-top: 30px;
   margin-bottom: 20px;
- /*height: 28%;*/;
 }
 
 .nav {
@@ -313,10 +312,10 @@ footer {
 
 .nav a {
   color: #54585a;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
 }
 
