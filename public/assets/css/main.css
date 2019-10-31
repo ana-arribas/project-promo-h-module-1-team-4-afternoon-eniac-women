@@ -748,7 +748,7 @@ label,input {
     -ms-flex-pack: center;
     justify-content: center;
     grid-column: 2/3;
-    grid-row: 1/4;
+    grid-row: 1/3;
     text-align: right;
   }
 
