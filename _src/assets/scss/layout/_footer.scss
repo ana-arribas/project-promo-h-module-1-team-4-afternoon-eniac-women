@@ -32,3 +32,21 @@ footer {
     margin-top: 30px;
     margin-bottom: 45px;
 }
+.logo_Adalab:hover {
+    animation-name: logorot;
+    animation-delay: 0.2s;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+@keyframes logorot {
+    0% {
+    transform: rotate(-360deg);
+    }
+     50% {
+     transform: rotate(-180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
