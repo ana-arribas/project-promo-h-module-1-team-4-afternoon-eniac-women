@@ -30,6 +30,10 @@
     font-weight: 500;
     margin: 0 -17px;
     padding: 0 17px;
+    @media all and (min-width: 768px){
+        background-color: $dark-green;
+        width: 320px;
+    }
     .navigation {
         display: flex;
         flex-flow: row wrap;
@@ -49,4 +53,12 @@
         }
 
     }
+}
+
+.cont_menu{
+    @media all and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+    }
+    
 }

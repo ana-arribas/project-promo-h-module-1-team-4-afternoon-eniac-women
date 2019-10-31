@@ -1,5 +1,9 @@
 footer {
     text-align: center;
+    @media all and (min-width: 768px){
+        height: 130px;
+    }
+
 }
 
 
@@ -10,11 +14,19 @@ footer {
     color: $cool-grey;
     margin-top: 30px;
     margin-bottom: 20px;
+    @media all and (min-width: 768px){
+        text-align: left;
+    }
 }
 .nav {
     list-style: none;
     padding: 0px;
     height: 24%; 
+    @media all and (min-width: 768px){
+        text-align: right;
+        transform: translateY(-30px);
+    }
+
     a {
         color: $dark-grey;
         font-family: $open-sans-font;
@@ -31,8 +43,12 @@ footer {
 .logo_Adalab {
     margin-top: 30px;
     margin-bottom: 45px;
+    @media all and (min-width: 768px){
+        transform: translateY(-90px);
+        text-align: left;
+    }
 }
-.logo_Adalab:hover {
+.logo_footer:hover {
     animation-name: logorot;
     animation-delay: 0.2s;
     animation-duration: 0.8s;
