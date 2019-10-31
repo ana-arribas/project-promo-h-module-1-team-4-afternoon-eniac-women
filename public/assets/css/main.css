@@ -527,7 +527,13 @@ footer {
 
 .fas,.fab {
   display: inline   !important;
-}/*######### MAIN SECTION: CONTACT US ##########*/.title {
+}
+
+label,input {
+  display: block;
+}
+
+.container .title {
   color: #099d8d;
   font-family: 'Rubik';
   font-size: 24px;
@@ -535,7 +541,7 @@ footer {
   text-align: center;
 }
 
-.section {
+.container .section {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -543,11 +549,11 @@ footer {
   color: #54585a;
 }
 
-.paragraph {
+.container .section .paragraph {
   font-size: 12px;
 }
 
-.form {
+.container .container--form .form {
   color: #54585a;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -560,14 +566,74 @@ footer {
   flex-direction: column;
 }
 
-.contact {
+.container .container--form .form .asterisk {
+  color: #14d9c4;
+}
+
+.container .container--form .form .input {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #b8b8b9;
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.container .container--form .form .contact {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
 }
 
-.button {
+.container .container--form .form .contact .contact--email .asterisk {
+  color: #14d9c4;
+}
+
+.container .container--form .form .contact .contact--email .input {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #b8b8b9;
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.container .container--form .form .contact .contact--phone .input {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #b8b8b9;
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.container .container--form .form .asterisk {
+  color: #14d9c4;
+}
+
+.container .container--form .form .input {
+  width: 100%;
+  height: 45px;
+  border: solid 1px #b8b8b9;
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  margin-top: 7px;
+  margin-bottom: 13px;
+}
+
+.container .container--form .form .message {
+  height: 105px;
+}
+
+.container .container--form .form .button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -580,32 +646,7 @@ footer {
   margin-top: 17px;
 }
 
-.input {
-  width: 100%;
-  height: 45px;
-  border: solid 1px #b8b8b9;
-  color: #b8b8b9;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  margin-top: 7px;
-  margin-bottom: 13px;
-}
-
-.message {
-  height: 105px;
-}
-
-label,input {
-  display: block;
-}
-
-.inline-position {
-  display: inline-block;
-}
-
-.asterisk {
-  color: #14d9c4;
-}/* ########## FOOTER ##########*//* ########## MEDIAQUERIES ###########*/.hero__image {
+.hero__image {
   height: 412px;
   background: url(../images/Eniac-Women-old.jpeg) 80% center no-repeat;
   background-size: cover;
@@ -642,26 +683,17 @@ label,input {
 }
 
 @media all and (min-width: 768px) {
-/* ##### HEADER ##### */  .hero-image {
-    margin: 0 -163px;
-  }
-
-  .cont_menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }/* ##### FORM ##### */  .section {
+  .container .section {
     height: 120px;
   }
 
-  .button {
+  .container .container--form .form .button {
     -ms-flex-item-align: end;
     align-self: flex-end;
     width: 50%;
-  }/* ##### FOOTER ##### */  .container {
+  }
+
+  .container {
     margin: 0 46px;
   }
 
@@ -834,19 +866,15 @@ label,input {
 }
 
 @media all and (min-width: 1200px) {
-  .hero-image {
-    margin: 0 -300px;
-  }
-
-  .section {
+  .container .section {
     height: 96px;
   }
 
-  .container--form {
+  .container .container--form {
     margin-bottom: 120px;
   }
 
-  .contact {
+  .container .container--form .form .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -859,12 +887,12 @@ label,input {
     justify-content: space-between;
   }
 
-  .contact--email {
+  .container .container--form .form .contact .contact--email {
     margin-right: 22px;
     width: 70%;
   }
 
-  .contact--phone {
+  .container .container--form .form .contact .contact--phone {
     margin-left: 22px;
   }
 }
