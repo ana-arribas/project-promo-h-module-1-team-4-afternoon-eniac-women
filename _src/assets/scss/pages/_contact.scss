@@ -35,7 +35,7 @@ label, input{
         .form{
             color: $dark-grey;
             font-family: $open-sans-font;
-            font-size: 14px;
+            font-size: 0.875rem;
             display: flex;
             flex-direction: column;
             .asterisk{
@@ -84,7 +84,7 @@ label, input{
             .button{
                 font-family: $open-sans-font;
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 1rem;
                 background-color: $dark-green;
                 color: #fff;
                 border: none;
@@ -97,7 +97,7 @@ label, input{
                     transform: scale(1.05);
                     transition: ease 1s;
                     background-color: #067267;
-                    font-size: 18px;
+                    font-size: 1.125rem;
                 }
                 @media all and (min-width: 768px){
                     align-self: flex-end;
