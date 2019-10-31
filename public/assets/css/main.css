@@ -444,20 +444,9 @@ label,input {
   width: 100%;
   height: 45px;
   margin-top: 17px;
-}/*######### MAIN SECTION: CONTACT US ##########*/.input {
-  width: 100%;
-  height: 45px;
-  border: solid 1px #b8b8b9;
-  color: #b8b8b9;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  margin-top: 7px;
-  margin-bottom: 13px;
 }
 
-.inline-position {
-  display: inline-block;
-}/* ########## MEDIAQUERIES ###########*/.txt {
+.txt {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #54585a;
@@ -682,22 +671,11 @@ label,input {
 }
 
 @media all and (min-width: 768px) {
-  .hero-image {
-    margin: 0 -163px;
-  }
-
-  .cont_menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }/* ##### FORM ##### */  .section {
+  .container .section {
     height: 120px;
   }
 
-  .button {
+  .container .container--form .form .button {
     -ms-flex-item-align: end;
     align-self: flex-end;
     width: 50%;
@@ -876,19 +854,15 @@ label,input {
 }
 
 @media all and (min-width: 1200px) {
-  .hero-image {
-    margin: 0 -300px;
-  }
-
-  .section {
+  .container .section {
     height: 96px;
   }
 
-  .container--form {
+  .container .container--form {
     margin-bottom: 120px;
   }
 
-  .contact {
+  .container .container--form .form .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -901,12 +875,12 @@ label,input {
     justify-content: space-between;
   }
 
-  .contact--email {
+  .container .container--form .form .contact .contact--email {
     margin-right: 22px;
     width: 70%;
   }
 
-  .contact--phone {
+  .container .container--form .form .contact .contact--phone {
     margin-left: 22px;
   }
 }
