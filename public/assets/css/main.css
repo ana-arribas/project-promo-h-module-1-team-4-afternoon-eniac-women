@@ -310,8 +310,10 @@ a {
   animation-name: slideInLeft;
 }
 
-footer {
+.footer {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .copyright {
@@ -326,7 +328,6 @@ footer {
 .nav {
   list-style: none;
   padding: 0px;
-  height: 24%;
 }
 
 .nav a {
@@ -343,7 +344,7 @@ footer {
 }
 
 .logo_Adalab {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 45px;
 }
 
@@ -723,24 +724,42 @@ label,input {
     justify-content: space-between;
   }
 
-  footer {
-    height: 130px;
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0;
+    text-align: left;
   }
 
   .copyright {
-    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 1/4;
     text-align: right;
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+  }
+
+  .nav a {
+    display: inline-block;
+    padding-top: 10px;
   }
 
   .logo_Adalab {
-    -webkit-transform: translateY(-90px);
-    transform: translateY(-90px);
-    text-align: left;
+    grid-column: 1/2;
+    grid-row: 2/4;
   }
 
   .square {
