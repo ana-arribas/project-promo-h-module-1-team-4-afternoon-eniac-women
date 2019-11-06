@@ -242,12 +242,13 @@
 
 .network {
     margin-left: 7px;
-
+    &:hover{
+        transform: scale(1.3);
+    }
 }
 .fab {
     color: $dark-green;
     font-family: $rubik-font;
-
 }
 .fas {
     color: $dark-green;
